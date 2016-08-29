@@ -1,0 +1,13 @@
+{
+  "name": "livesport",
+  "description": "",
+  "version": "0.0.1",
+  "private": true,
+  "main": "server/app.js",
+  "dependencies": {
+    "body-parser": "1.9.0",
+    "ejs": "^1.0.0",
+    "express": "4.9.5",
+    "express-validator": "^2.6.0"
+  }
+}
