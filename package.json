@@ -1,13 +1,24 @@
 {
-  "name": "livesport",
-  "description": "",
-  "version": "0.0.1",
-  "private": true,
-  "main": "server/app.js",
+  "name": "nodeMongo",
+  "version": "1.0.0",
+  "description": "Node.js and MongoDb example.",
+  "main": "server.js",
+  "keywords": [
+    "Node.js",
+    "mongoDb"
+  ],
+  "scripts": {
+    "test": "mocha"
+  },
   "dependencies": {
-    "body-parser": "1.9.0",
-    "ejs": "^1.0.0",
-    "express": "4.9.5",
-    "express-validator": "^2.6.0"
+    "body-parser": "^1.13.3",
+    "express": "^4.14.0",
+    "express-validator": "^2.20.8",
+    "install": "^0.8.1",
+    "jwt-simple": "^0.5.0",
+    "moment": "^2.14.1",
+    "mongoose": "^4.5.8",
+    "npm": "^3.10.6",
+    "properties-reader": "0.0.15"
   }
 }
