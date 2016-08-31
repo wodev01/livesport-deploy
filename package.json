@@ -2,6 +2,7 @@
   "name": "nodeMongo",
   "version": "1.0.0",
   "description": "Node.js and MongoDb example.",
+  "main" : "server/server.js",
   "keywords": [
     "Node.js",
     "mongoDb"

@@ -17,7 +17,7 @@ app.use(bodyParser.urlencoded({"extended": false}));
 app.use(expressValidator());
 app.use(allowCrossDomain);
 
-require('./server/routes/user')(app);
+require('./routes/user.route')(app);
 
 app.set('port', (process.env.PORT || 3000));
 app.listen(app.get('port'));
