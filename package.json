@@ -2,10 +2,9 @@
   "name": "nodeMongo",
   "version": "1.0.0",
   "description": "Node.js and MongoDb example.",
-  "main" : "server/server.js",
+  "main" : "Server.js",
   "keywords": [
-    "Node.js",
-    "mongoDb"
+    "Node.js"
   ],
   "scripts": {
     "start": "node server.js",
@@ -18,7 +17,6 @@
     "install": "^0.8.1",
     "jwt-simple": "^0.5.0",
     "moment": "^2.14.1",
-    "mongoose": "^4.5.8",
     "npm": "^3.10.6",
     "properties-reader": "0.0.15"
   }
