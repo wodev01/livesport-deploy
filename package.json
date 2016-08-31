@@ -2,12 +2,12 @@
   "name": "nodeMongo",
   "version": "1.0.0",
   "description": "Node.js and MongoDb example.",
-  "main": "server.js",
   "keywords": [
     "Node.js",
     "mongoDb"
   ],
   "scripts": {
+    "start": "node server.js",
     "test": "mocha"
   },
   "dependencies": {
