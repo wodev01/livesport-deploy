@@ -18,6 +18,7 @@ app.use(expressValidator());
 app.use(allowCrossDomain);
 
 require('./server/routes/user.route')(app);
+require('./server/routes/stripe.route')(app);
 
 app.set('port', (process.env.PORT || 3000));
 app.listen(app.get('port'));
