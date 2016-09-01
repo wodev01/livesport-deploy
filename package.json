@@ -4,6 +4,9 @@
   "dependencies": {
     "stripe": "^4.9.1"
   },
+  "scripts": {
+    "start": "node app.js"
+  },
   "repository": {},
   "devDependencies": {
     "grunt": "^0.4.5",
