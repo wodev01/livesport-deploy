@@ -2,12 +2,8 @@
   "name": "nodeMongo",
   "version": "1.0.0",
   "description": "Node.js and MongoDb example.",
-  "main" : "Server.js",
-  "keywords": [
-    "Node.js"
-  ],
   "scripts": {
-    "start": "node server.js",
+    "start": "node app.js",
     "test": "mocha"
   },
   "dependencies": {
