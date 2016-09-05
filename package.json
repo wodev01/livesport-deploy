@@ -8,8 +8,7 @@
   ],
   "scripts": {
     "start": "node server.js",
-    "test": "mocha",
-    "postinstall": "npm install"
+    "test": "mocha"
   },
   "dependencies": {
     "body-parser": "^1.13.3",
